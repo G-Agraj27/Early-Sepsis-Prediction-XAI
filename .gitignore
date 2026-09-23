@@ -1,0 +1,117 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ================================
+# Virtual Environment
+# ================================
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# IDE
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# ML Data
+# ================================
+ml/data/raw/*
+ml/data/processed/*
+ml/data/external/*
+
+# Keep directory structure
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
+!ml/data/external/.gitkeep
+
+# ================================
+# Trained Models
+# ================================
+ml/saved_models/*
+*.pkl
+*.joblib
+*.onnx
+*.h5
+*.keras
+
+# Keep model directory
+!ml/saved_models/.gitkeep
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# Python Build
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Testing
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ================================
+# Temporary Files
+# ================================
+*.tmp
+*.temp
+*.bak
+
+# ================================
+# Node
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ================================
+# Frontend Build
+# ================================
+frontend/dist/
+frontend/build/
+
+# ================================
+# Coverage
+# ================================
+coverage/
+
+# ================================
+# Docker
+# ================================
+.docker/
+
